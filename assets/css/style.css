@@ -623,3 +623,7 @@ footer .copyright .pro-links i:hover {
   }
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
