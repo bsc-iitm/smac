@@ -10,6 +10,7 @@ body {
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 0px;
+  width: 100%;
 }
 
 h1 {
@@ -518,57 +519,57 @@ footer .copyright .pro-links i:hover {
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   nav .navigation ul.active {
     right: 0;
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   nav .navigation ul li {
     padding: 20px 0 20px 40px;
     margin-left: 0;
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   nav .navigation ul li a {
     color: #fff;
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   #home {
     padding: 0px;
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   #home p {
-    width: 90%;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   #features {
     padding: 8vw 4vw 0 4vw;
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   #course {
     padding: 8vw 4vw 8vw 4vw;
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   #registration {
     padding: 6vw 4vw 6vw 4vw;
     gap: 2.2rem;
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   #registration .reminder .time {
     display: flex;
     justify-content: space-between;
@@ -577,37 +578,37 @@ footer .copyright .pro-links i:hover {
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   #experts {
     padding: 8vw 4vw 6vw 4vw;
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 1025px) {
   footer .copyright .pro-links {
     margin-top: 20px;
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 1025px) {
   #registration {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 1025px) {
   .reminder p, .reminder h1 {
     text-align: center;
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 1025px) {
   .reminder h1 {
     font-size: 1.8rem;
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 1025px) {
   #registration .reminder .time {
     justify-content: space-evenly;
     margin-top: 20px;
