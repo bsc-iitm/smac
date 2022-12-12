@@ -10,6 +10,7 @@ body {
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 0px;
+  overflow-x:hidden;
   width: 100%;
 }
 
