@@ -50,7 +50,7 @@ nav .logo {
 nav .navigation {
   display: flex;
 }
-
+/*
 #menu-btn {
   width: 30px;
   height: 30px;
@@ -59,7 +59,7 @@ nav .navigation {
 
 #menu-close {
   display: none;
-}
+} */
 
 nav .navigation ul {
   display: flex;
