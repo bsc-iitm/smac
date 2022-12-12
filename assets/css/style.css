@@ -6,12 +6,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-  overflow-x:hidden;
-  width: 100%;
 }
 
 h1 {
@@ -51,7 +45,7 @@ nav .logo {
 nav .navigation {
   display: flex;
 }
-/*
+
 #menu-btn {
   width: 30px;
   height: 30px;
@@ -60,7 +54,7 @@ nav .navigation {
 
 #menu-close {
   display: none;
-} */
+}
 
 nav .navigation ul {
   display: flex;
@@ -90,9 +84,9 @@ nav .navigation ul li a.active, nav .navigation ul li a:hover {
 /* ------------- Hero section styling start -------------- */
 
 #home {
-  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("../../assets/img/back.jpeg");
+  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("../../assets/img/back.jpg");
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -520,57 +514,57 @@ footer .copyright .pro-links i:hover {
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   nav .navigation ul.active {
     right: 0;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   nav .navigation ul li {
     padding: 20px 0 20px 40px;
     margin-left: 0;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   nav .navigation ul li a {
     color: #fff;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   #home {
     padding: 0px;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   #home p {
-    width: 100%;
+    width: 90%;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   #features {
     padding: 8vw 4vw 0 4vw;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   #course {
     padding: 8vw 4vw 8vw 4vw;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   #registration {
     padding: 6vw 4vw 6vw 4vw;
     gap: 2.2rem;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   #registration .reminder .time {
     display: flex;
     justify-content: space-between;
@@ -579,37 +573,37 @@ footer .copyright .pro-links i:hover {
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   #experts {
     padding: 8vw 4vw 6vw 4vw;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 789px) {
   footer .copyright .pro-links {
     margin-top: 20px;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 475px) {
   #registration {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 475px) {
   .reminder p, .reminder h1 {
     text-align: center;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 475px) {
   .reminder h1 {
     font-size: 1.8rem;
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 475px) {
   #registration .reminder .time {
     justify-content: space-evenly;
     margin-top: 20px;
