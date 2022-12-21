@@ -36,7 +36,12 @@
     color: linear-gradient(to right, #e8cbc0, #636fa4);
     
     }
-    
+    .moving {
+  width: 300px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  background-color: #fff;
+}
 
 </style>
 </head>
@@ -62,7 +67,9 @@
 -->
     </nav>
    
-        
+        <div class="moving" id="flavoursContainer">
+  Workshop to be conducted in hybrid mode by IIT Madras BS Mathematics and Statistics Academic cell on 28th December 2022.Registrations are open and the registration link has been shared with you via email as well as it is present in the latest posts section down on this page. Happy Learning ! 
+</div>
     <section id="home">
         <h2 style="font-size: 60px;margin: -1px;"> IIT Madras </h2>
         <h2 style="font-size: 40px;"> BS Mathematics and Statistics Society </h2>
@@ -202,6 +209,18 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 </script>
+    <script>
+        const flavoursContainer = document.getElementById('flavoursContainer');
+const flavoursScrollWidth = flavoursContainer.scrollWidth;
+
+window.addEventListener('load', () => {
+  self.setInterval(() => {
+    if (flavoursContainer.scrollLeft !== flavoursScrollWidth) {
+      flavoursContainer.scrollTo(flavoursContainer.scrollLeft + 1, 0);
+    }
+  }, 15);
+});
+    </script>
 </body>
 
 </html>
