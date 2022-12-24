@@ -69,8 +69,9 @@
     </div>
   </div>
     
-    <section id="experts">
-        <footer class="text-center bg-dark" style="margin-left: -118px;margin-right: -128px;margin-top: -109px;margin-bottom:-111px;">
+    
+<section id="experts">
+        <footer class="text-center bg-dark" style="margin-left: -118px;margin-right: -128px;margin-top: -109px;margin-bottom: -111px;">
             <div class="container text-white py-4 py-lg-5">
                 <ul class="list-inline" style="padding-left: 0px;margin-left: -44px;">
                     <li class="list-inline-item me-4"><a class="link-light" href="blogs.html"><strong>Teams</strong></a></li>
@@ -120,8 +121,18 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 </script>
+    <script>
+        const flavoursContainer = document.getElementById('flavoursContainer');
+const flavoursScrollWidth = flavoursContainer.scrollWidth;
+
+window.addEventListener('load', () => {
+  self.setInterval(() => {
+    if (flavoursContainer.scrollLeft !== flavoursScrollWidth) {
+      flavoursContainer.scrollTo(flavoursContainer.scrollLeft + 1, 0);
+    }
+  }, 15);
+});
+    </script>
 </body>
 
 </html>
-
-
